@@ -2,8 +2,13 @@
 
 This project implements CycleGAN, a deep learning technique, to translate images between two unpaired datasets: horses and zebras. The goal is to train a model that can generate realistic zebra images from input horse images and vice versa.
 
-# I am using Kaggle's GPU for my project, and here is the link to my project (If you can't access it, it's because I set it to private):
+# I am using Kaggle's GPU for my project, and here is the link to my project (If you can't access it, it's because I set it to private mode):
 [Kaggle Notebook: CycleGAN](https://www.kaggle.com/code/nguyenquyetgiangson/cyclegan)
+
+# Demo:
+![demo1](https://github.com/GiangSon-5/CycleGAN-for-Horse2Zebra-Image-Translation/blob/main/images/demo1.jpg)
+
+![demo2](https://github.com/GiangSon-5/CycleGAN-for-Horse2Zebra-Image-Translation/blob/main/images/demo2.jpg)
 
 ## Steps Taken in the Project
 
@@ -71,3 +76,5 @@ This class defines the architecture of the discriminator network. It takes an im
 ### Hyperparameters:
 - **lambda_cycle, lambda_identity**: These are weighting factors that control the importance of the cycle consistency and identity losses, respectively.
 - **target_real, target_fake**: These tensors represent the target values for the discriminator during training (1 for real, 0 for fake).
+
+![Loss](https://github.com/GiangSon-5/CycleGAN-for-Horse2Zebra-Image-Translation/blob/main/images/loss.jpg)
