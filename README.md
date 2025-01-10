@@ -2,6 +2,9 @@
 
 This project implements CycleGAN, a deep learning technique, to translate images between two unpaired datasets: horses and zebras. The goal is to train a model that can generate realistic zebra images from input horse images and vice versa.
 
+# I am using Kaggle's GPU for my project, and here is the link to my project (If you can't access it, it's because I set it to private):
+[Kaggle Notebook: CycleGAN](https://www.kaggle.com/code/nguyenquyetgiangson/cyclegan)
+
 ## Steps Taken in the Project
 
 ### Data Preparation:
